@@ -8,12 +8,12 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Francisco González Urriola",
-    "title": "Computer Engineer Student"
+    "title": "Computer Engineering Student"
   },
   "about": {
     "title": "About Me",
-    "description": "My name is Francisco González Urriola, but my friends call me Pancho. The first time I programmed was in a robotics workshop using Python, I was 12 years old. Since then I have progressed to be in the third year of the Computer Engineering career at the University of Chile.",
-    "description1": "Part of my progress includes advancing in Software Engineering and Web Application Development to have knowledge and tools to apply my skills in real projects. You can find some of my projects below.",
+    "description": "My name is Francisco González Urriola, but my friends call me Pancho. The first time I programmed was in a robotics workshop using Python, I was 12 years old. Since then I have progressed to the third year of the Computer Engineering career at the University of Chile.",
+    "description1": "Part of my progress includes advancing in Software Engineering and Web Application Development to acquire knowledge and tools to apply my skills in real-world projects. You can find some of my projects below.",
     "description2": "",
     "technologies": "Technologies"
   },
@@ -21,7 +21,7 @@
     "title": "My Projects",
     "project1": {
       "title": "DCCPlaces",
-      "description": "A platform for reserving spaces within the Department of Computer Science, built in a team, using Python with the Django framework"
+      "description": "A platform for reserving spaces within the Department of Computer Science, built in a team, using Python with the Django framework. Currently, the code repository is private."
     },
     "project2": {
       "title": "AOEdle",
@@ -29,14 +29,12 @@
     },
     "project3": {
       "title": "Portfolio",
-      "description": "The portfolio you're looking at right now, built using Vite, React, and Typescript"
+      "description": "The portfolio you're viewing right now, featuring dark mode and multi-language support, built using Vite, React, and Typescript."
     }
   },
   "contact": {
     "title": "Get in Touch",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send"
+    "email": "Email"
   },
   "footer": {
     "copyright": "© 2024 Francisco González Urriola. All rights reserved."

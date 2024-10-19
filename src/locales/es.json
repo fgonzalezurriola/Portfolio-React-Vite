@@ -34,9 +34,7 @@
   },
   "contact": {
     "title": "Ponte en Contacto",
-    "email": "Email",
-    "message": "Mensaje",
-    "send": "Enviar"
+    "email": "Email"
   },
   "footer": {
     "copyright": "© 2024 Francisco González Urriola. Todos los derechos reservados."
