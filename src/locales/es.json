@@ -1,0 +1,44 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Francisco González Urriola",
+    "title": "Estudiante de Ingeniería en Computación"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Me llamo Francisco González, pero mis amigos me dicen Pancho. La primera vez que programé fue en un taller de robótica usando Python, tenía 12 años. Desde entonces he progresado hasta estar en el tercer año de la carrera de Ingeniería Civil en Computación en la Universidad de Chile.",
+    "description1": "Parte de mi progreso incluye estar cursando adelantadamente Ingeniería de Software y Desarrollo de Aplicaciones Web para tener conocimientos y herramientas para poder aplicar mis habilidades en proyectos reales. Puedes encontrar algunos de mis proyectos más abajo.",
+    "description2": "",
+    "technologies": "Tecnologías"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "project1": {
+      "title": "DCCPlaces",
+      "description": "Plataforma para la reserva de espacios dentro del Departamento de Computación, construido en equipo, utilizando Python con el framework Django. Actualmente el código del repositorio es privado"
+    },
+    "project2": {
+      "title": "AOEdle",
+      "description": "Juego de trivia sobre el Videojuego Age of Empires II, construido usando el stack MERN (Mongo DB, Express, React.js, Node.js)"
+    },
+    "project3": {
+      "title": "Portfolio",
+      "description": "El portfolio que estás viendo ahora mismo, tiene modo oscuro y soporta dos idiomas, construido usando Vite, React y Typescript"
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "footer": {
+    "copyright": "© 2024 Francisco González Urriola. Todos los derechos reservados."
+  }
+}
