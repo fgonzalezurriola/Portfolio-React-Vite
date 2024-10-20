@@ -1,7 +1,7 @@
 {
   "header": {
     "home": "Home",
-    "about": "About",
+    "about": "About Me",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -12,8 +12,8 @@
   },
   "about": {
     "title": "About Me",
-    "description": "My name is Francisco González Urriola, but my friends call me Pancho. The first time I programmed was in a robotics workshop using Python, I was 12 years old. Since then I have progressed to the third year of the Computer Engineering career at the University of Chile.",
-    "description1": "Part of my progress includes advancing in Software Engineering and Web Application Development to acquire knowledge and tools to apply my skills in real-world projects. You can find some of my projects below.",
+    "description": "My name is Francisco González Urriola, but my friends call me Pancho. I wrote my first lines of code in a robotics workshop using Python when I was 12. Since then, I've made steady progress and am now in my third year of the Computer Engineering program at the University of Chile.",
+    "description1": "As part of my journey, I've been advancing in Software Engineering and Web Application Development, gaining the knowledge and tools needed to apply my skills in real-world projects. Below, you can find some of my work.",
     "description2": "",
     "technologies": "Technologies"
   },
@@ -21,15 +21,15 @@
     "title": "My Projects",
     "project1": {
       "title": "DCCPlaces",
-      "description": "A platform for reserving spaces within the Department of Computer Science, built in a team, using Python with the Django framework. Currently, the code repository is private."
+      "description": "A platform for reserving spaces within the Department of Computer Science, developed as part of a team using Python and the Django framework. Currently, the repository is private."
     },
     "project2": {
       "title": "AOEdle",
-      "description": "A trivia game about the video game Age of Empires II, built using the MERN stack (MongoDB, Express, React.js, Node.js)"
+      "description": "A trivia game based on the video game Age of Empires II, built using the MERN stack (MongoDB, Express, React.js, Node.js)."
     },
     "project3": {
       "title": "Portfolio",
-      "description": "The portfolio you're viewing right now, featuring dark mode and multi-language support, built using Vite, React, and Typescript."
+      "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with Vite, React, and TypeScript."
     }
   },
   "contact": {

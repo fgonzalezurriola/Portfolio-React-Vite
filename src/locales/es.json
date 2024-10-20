@@ -12,8 +12,8 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "description": "Me llamo Francisco González, pero mis amigos me dicen Pancho. La primera vez que programé fue en un taller de robótica usando Python, tenía 12 años. Desde entonces he progresado hasta estar en el tercer año de la carrera de Ingeniería Civil en Computación en la Universidad de Chile.",
-    "description1": "Parte de mi progreso incluye estar cursando adelantadamente Ingeniería de Software y Desarrollo de Aplicaciones Web para tener conocimientos y herramientas para poder aplicar mis habilidades en proyectos reales. Puedes encontrar algunos de mis proyectos más abajo.",
+    "description": "Me llamo Francisco González Urriola, pero mis amigos me dicen Pancho. La primera vez que programé fue en un taller de robótica utilizando Python cuando tenía 12 años. Desde entonces he avanzado hasta estar en el tercer año de la carrera de Ingeniería Civil en Computación en la Universidad de Chile.",
+    "description1": "Parte de mi progreso incluye estar cursando adelantadamente Ingeniería de Software y Desarrollo de Aplicaciones Web para adquirir conocimientos y herramientas que me permitan aplicar mis habilidades en proyectos reales. Puedes encontrar algunos de mis proyectos más abajo.",
     "description2": "",
     "technologies": "Tecnologías"
   },
@@ -21,15 +21,15 @@
     "title": "Mis Proyectos",
     "project1": {
       "title": "DCCPlaces",
-      "description": "Plataforma para la reserva de espacios dentro del Departamento de Computación, construido en equipo, utilizando Python con el framework Django. Actualmente el código del repositorio es privado"
+      "description": "Plataforma para la reserva de espacios dentro del Departamento de Ciencias de la Computación, construida en equipo, utilizando Python con el framework Django. Actualmente, el código del repositorio es privado."
     },
     "project2": {
       "title": "AOEdle",
-      "description": "Juego de trivia sobre el Videojuego Age of Empires II, construido usando el stack MERN (Mongo DB, Express, React.js, Node.js)"
+      "description": "Juego de trivia sobre el videojuego Age of Empires II, construido utilizando el stack MERN (MongoDB, Express, React.js, Node.js)."
     },
     "project3": {
-      "title": "Portfolio",
-      "description": "El portfolio que estás viendo ahora mismo, tiene modo oscuro y soporta dos idiomas, construido usando Vite, React y Typescript"
+      "title": "Portafolio",
+      "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando Vite, React y TypeScript."
     }
   },
   "contact": {
