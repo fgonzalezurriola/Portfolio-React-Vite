@@ -81,15 +81,16 @@ El proyecto estará disponible en tu navegador en `http://localhost:5173`.
 
 ## 🌐 Despliegue
 
-Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar el repositorio y el despliegue automático se encargará de la configuración. Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación
+Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar el repositorio y el despliegue automático se encargará de la configuración. 
+Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación
 
 ## 📧 Contacto
 
 Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contactarme:
 
-- **Email**: [tu-email@example.com](mailto:fgonzalezurriola@gmail.com)
-- **LinkedIn**: [tu-linkedin](https://www.linkedin.com/in/fgonzalezurriola/)
-- **Telegram**: [tu-telegram](https://t.me/fgonzalezurriola)
+- **Email**: [fgonzalezurriola@gmail.com](mailto:fgonzalezurriola@gmail.com)
+- **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
+- **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
 
 ---
 
