@@ -97,8 +97,6 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 
 Gracias por visitar mi portafolio. ¡Espero tener la oportunidad de colaborar contigo!
 
-Aquí tienes el README traducido al inglés:
-
 ---
 
 # Francisco González Urriola's Portfolio
