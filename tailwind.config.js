@@ -14,7 +14,7 @@ export default {
         },
       },
       animation: {
-        scroll: 'scroll 180s linear infinite', // 15 segundos de duración
+        scroll: 'scroll 180s linear infinite',
       },
     },
   },
