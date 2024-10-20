@@ -82,7 +82,8 @@ El proyecto estará disponible en tu navegador en `http://localhost:5173`.
 ## 🌐 Despliegue
 
 Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar el repositorio y el despliegue automático se encargará de la configuración. 
-Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación
+
+Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación en https://users.dcc.uchile.cl/~fragonza/
 
 ## 📧 Contacto
 
@@ -95,3 +96,110 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 ---
 
 Gracias por visitar mi portafolio. ¡Espero tener la oportunidad de colaborar contigo!
+
+Aquí tienes el README traducido al inglés:
+
+---
+
+# Francisco González Urriola's Portfolio
+
+Welcome to my personal portfolio. This project is designed to showcase my skills as a full-stack developer, my most prominent projects, and my academic background. Here, you can learn more about me and how I use modern technologies to build efficient and scalable web applications.
+
+## 🚀 About Me
+
+I am Francisco González Urriola, a **Computer Engineering** student at the University of Chile, with a strong focus on web application development. Throughout my academic career and personal projects, I have gained experience in a wide range of technologies and development methodologies. I am passionate about solving complex problems and creating user-friendly interfaces.
+
+### Key Technologies:
+
+- **Frontend**: React, HTML5, CSS3, Tailwind CSS, TypeScript
+- **Tools**: Git, Vite
+- **Internationalization**: i18n to support multiple languages (English and Spanish)
+
+## 🎯 Project Objective
+
+This portfolio aims to highlight my technical skills and projects while providing a space for recruiters to explore my work firsthand. The project includes:
+
+- **Light/Dark Mode**: To enhance the user experience.
+- **Internationalization (i18n)**: Ability to switch between English and Spanish.
+- **Interactive Carousel**: Showcasing the technologies I use, with dynamic icons representing my technical skills.
+- **Responsive Design**: Adaptable to various screen sizes.
+
+## 🛠️ Technologies Used
+
+- **React**: For building the interactive interface of the portfolio.
+- **Tailwind CSS**: For modern, responsive design with utility-first CSS.
+- **i18n**: Multi-language support (English and Spanish) for increased accessibility.
+- **Vite**: For a fast and efficient development environment.
+- **React Icons**: Visual icons representing the technologies I use.
+
+## 🖥️ Installation and Usage
+
+If you'd like to explore the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd your-repository
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+The project will be available in your browser at `http://localhost:5173`.
+
+## ✨ Main Features
+
+- **Language Switcher**: Change between English and Spanish at any time with the corresponding button.
+- **Light/Dark Mode**: Toggle between light and dark modes for a better visual experience.
+- **Technology Carousel**: Explore the technologies I use through an animated carousel with icons representing my skills.
+
+## 📂 Project Structure
+
+```bash
+.
+├── public          # Static files
+├── src             # Project source code
+│   ├── components  # Reusable components
+│   ├── locales     # Translation files (i18n)
+│   ├── App.tsx     # Main application component
+│   └── index.tsx   # Application entry point
+├── index.html      # Main HTML file
+└── tailwind.config.js  # Tailwind CSS configuration
+```
+
+## 🌐 Deployment
+
+This project is designed to be easily deployed on platforms such as **Vercel** or **Netlify**. Simply connect the repository, and automatic deployment will handle the setup.
+
+It is currently deployed on the Apache server of the Department of Computer Science at [https://users.dcc.uchile.cl/~fragonza/](https://users.dcc.uchile.cl/~fragonza/).
+
+## 📧 Contact
+
+If you're interested in learning more about me or my projects, feel free to reach out:
+
+- **Email**: [fgonzalezurriola@gmail.com](mailto:fgonzalezurriola@gmail.com)
+- **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
+- **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
+
+---
+
+Thank you for visiting my portfolio. I look forward to the opportunity to collaborate with you!
+
+---
+
+Let me know if you'd like to adjust any part or add more details!
