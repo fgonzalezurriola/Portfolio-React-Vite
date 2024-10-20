@@ -32,7 +32,6 @@ function App() {
         </main>
         <Footer />
         <div className="fixed bottom-4 right-4 flex space-x-2">
-          {/* Invertimos las clases en el botón de cambio de tema */}
           <button
             onClick={toggleTheme}
             className={`p-2 rounded-full transition-colors duration-300 ${
@@ -42,7 +41,6 @@ function App() {
             {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
           </button>
 
-          {/* Invertimos las clases en el botón de cambio de idioma */}
           <button
             onClick={toggleLanguage}
             className={`p-2 rounded-full transition-colors duration-300 ${
