@@ -95,7 +95,7 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 
 ---
 
-Gracias por visitar mi portafolio. ¡Espero tener la oportunidad de colaborar contigo!
+Gracias por visitar mi portafolio. Recuerda que puedes descargar mi CV en él. ¡Espero tener la oportunidad de colaborar contigo!
 
 ---
 
@@ -196,7 +196,7 @@ If you're interested in learning more about me or my projects, feel free to reac
 
 ---
 
-Thank you for visiting my portfolio. I look forward to the opportunity to collaborate with you!
+Thank you for visiting my portfolio. Remember that you can download my resume in my portfolio.I look forward to the opportunity to collaborate with you!
 
 ---
 

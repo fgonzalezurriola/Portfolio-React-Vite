@@ -5,10 +5,9 @@ import { Code } from 'lucide-react';
 const Hero: React.FC = () => {
   const { t } = useTranslation();
 
-  // Verificamos si el valor traducido es exactamente "Download Resume"
   const resumeFile = t('header.resume') === 'Download Resume'
-    ? '/cv-en.pdf'  // Si es "Download Resume", usa la versión en inglés
-    : '/cv-es.pdf'; // De lo contrario, usa la versión en español
+    ? '/cv-en.pdf'  
+    : '/cv-es.pdf'; 
 
   return (
     <section id="home" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12">
