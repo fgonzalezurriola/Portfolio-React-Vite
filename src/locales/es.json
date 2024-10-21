@@ -3,7 +3,8 @@
     "home": "Inicio",
     "about": "Sobre mí",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "resume": "Descargar CV"
   },
   "hero": {
     "greeting": "Hola, soy",

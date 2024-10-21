@@ -5,6 +5,11 @@ import { Code } from 'lucide-react';
 const Hero: React.FC = () => {
   const { t } = useTranslation();
 
+  // Verificamos si el valor traducido es exactamente "Download Resume"
+  const resumeFile = t('header.resume') === 'Download Resume'
+    ? '/cv-en.pdf'  // Si es "Download Resume", usa la versión en inglés
+    : '/cv-es.pdf'; // De lo contrario, usa la versión en español
+
   return (
     <section id="home" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12">
       <div className="container mx-auto px-6 text-center">
@@ -13,9 +18,19 @@ const Hero: React.FC = () => {
           {t('hero.greeting')} <span className="text-yellow-300">{t('hero.name')}</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8">{t('hero.title')}</p>
-        <a href="#contact" className="bg-white text-blue-600 py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-100 transition duration-300">
+        <a href="#contact" className="bg-white mx-4 text-blue-600 py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-100 transition duration-300">
           {t('header.contact')}
         </a>
+        
+        <a 
+          href={resumeFile}
+          download 
+          type="application/pdf"
+          className="bg-white mx-4 text-blue-600 py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-100 transition duration-300"
+        >
+          {t('header.resume')}
+        </a>
+
       </div>
     </section>
   );

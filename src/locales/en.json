@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About Me",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "resume": "Download resume"
   },
   "hero": {
     "greeting": "Hi, I'm",
