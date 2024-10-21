@@ -17,7 +17,7 @@ const technologies = [
 ];
 
 const TechnologyCarousel: React.FC = () => {
-  const doubledTechnologies = [...technologies, ...technologies, ...technologies, ...technologies, ...technologies];
+  const doubledTechnologies = Array(12).fill(technologies).flat();
 
   return (
     <div className="relative h-20 overflow-hidden w-1/2 mx-auto mb-2">

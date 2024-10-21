@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { BookMarked, ListChecks, BookUser } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa'; 
+import { BookMarked, BookUser } from 'lucide-react';
+import { FaGithub, FaRust } from 'react-icons/fa'; 
+import { CgWebsite } from "react-icons/cg";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -11,19 +12,22 @@ const Projects: React.FC = () => {
       icon: BookMarked, 
       title: 'projects.project1.title', 
       description: 'projects.project1.description', 
-      githubLink: '' 
+      githubLink: '',
+      deploy: ''
     },
     { 
-      icon: ListChecks, 
+      icon: FaRust, 
       title: 'projects.project2.title', 
       description: 'projects.project2.description', 
-      githubLink: 'https://github.com/fgonzalezurriola/Projecto-Express' 
+      githubLink: 'https://github.com/fgonzalezurriola/Zona-de-Pruebas-de-Rust',
+      deploy: 'https://zona-de-pruebas-de-rust.vercel.app/'
     },
     { 
       icon: BookUser, 
       title: 'projects.project3.title', 
       description: 'projects.project3.description', 
-      githubLink: 'https://github.com/fgonzalezurriola/Portfolio-React-Vite' 
+      githubLink: 'https://github.com/fgonzalezurriola/Portfolio-React-Vite',
+      deploy: 'https://users.dcc.uchile.cl/~fragonza/'
     }
   ];
 
@@ -39,20 +43,36 @@ const Projects: React.FC = () => {
             >
               <project.icon size={48} className="text-blue-500 mb-4" />
               <h3 className="text-xl font-semibold mb-2">{t(project.title)}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">{t(project.description)}</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-12">{t(project.description)}</p>
 
+              <div className="flex justify-start items-end absolute bottom-4 left-4 right-4">
               {/* Gh button only if the link is defined */}
               {project.githubLink && (
                 <a
                   href={project.githubLink} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute bottom-4 left-4 z-10 inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                  className="inline-flex mx-2 items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
                 >
-                  Código
-                  <FaGithub className="ml-2" size={20} />
+                  {t('projects.code')}
+                  <FaGithub className="ml-3" size={20} />
                 </a>
               )}
+
+              {/* Deploy button only if the link is defined */}
+              {project.deploy && (
+                <a
+                  href={project.deploy}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex mx-2 items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-300"
+                >
+                  {t('projects.deployed')}
+                  <CgWebsite className="ml-3" size={20} />
+                </a>
+              )}
+              </div>
+              
             </div>
           ))}
         </div>

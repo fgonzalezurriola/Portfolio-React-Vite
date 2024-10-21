@@ -22,15 +22,18 @@
     "project1": {
       "title": "DCCPlaces",
       "description": "Plataforma para la reserva de espacios dentro del Departamento de Ciencias de la Computación, construida en equipo, utilizando Python con el framework Django. Actualmente, el código del repositorio es privado."
+
     },
     "project2": {
-      "title": "AOEdle",
-      "description": "Juego de trivia sobre el videojuego Age of Empires II, construido utilizando el stack MERN (MongoDB, Express, React.js, Node.js)."
+      "title": "Zona de Pruebas de Rust",
+      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TypeScript y TailwindCSS. Utiliza la API de Rust Playground."
     },
     "project3": {
       "title": "Portafolio",
       "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando Vite, React y TypeScript."
-    }
+    },
+    "code": "Código",
+    "deployed": "Sitio web"
   },
   "contact": {
     "title": "Ponte en Contacto",

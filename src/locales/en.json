@@ -22,15 +22,18 @@
     "project1": {
       "title": "DCCPlaces",
       "description": "A platform for reserving spaces within the Department of Computer Science, developed as part of a team using Python and the Django framework. Currently, the repository is private."
+
     },
     "project2": {
-      "title": "AOEdle",
-      "description": "A trivia game based on the video game Age of Empires II, built using the MERN stack (MongoDB, Express, React.js, Node.js)."
+      "title": "Rust Playground",
+      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, TypeScript, and TailwindCSS. Utilizes the Rust Playground API."
     },
     "project3": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with Vite, React, and TypeScript."
-    }
+    },      
+    "code": "Code",
+    "deployed": "Website"
   },
   "contact": {
     "title": "Get in Touch",
