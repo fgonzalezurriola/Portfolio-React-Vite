@@ -5,7 +5,6 @@ import { Code } from 'lucide-react';
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   
-  // Usar ruta relativa (sin slash inicial)
   const resumeFile = t('header.resume') === 'Download Resume'
     ? 'cv-en.pdf'
     : 'cv-es.pdf';
