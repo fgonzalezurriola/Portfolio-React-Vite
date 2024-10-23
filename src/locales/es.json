@@ -27,11 +27,11 @@
     },
     "project2": {
       "title": "Zona de Pruebas de Rust",
-      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TypeScript y TailwindCSS. Utiliza la API de Rust Playground."
+      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
     },
     "project3": {
       "title": "Portafolio",
-      "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando Vite, React y TypeScript."
+      "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
     },
     "code": "Código",
     "deployed": "Sitio web"
@@ -41,6 +41,6 @@
     "email": "Email"
   },
   "footer": {
-    "copyright": "© 2024 Francisco González Urriola. Todos los derechos reservados."
+    "copyright": "2024 Francisco González Urriola."
   }
 }

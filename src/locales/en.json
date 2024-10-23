@@ -27,11 +27,11 @@
     },
     "project2": {
       "title": "Rust Playground",
-      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, TypeScript, and TailwindCSS. Utilizes the Rust Playground API."
+      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
     },
     "project3": {
       "title": "Portfolio",
-      "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with Vite, React, and TypeScript."
+      "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
     },      
     "code": "Code",
     "deployed": "Website"
@@ -41,6 +41,6 @@
     "email": "Email"
   },
   "footer": {
-    "copyright": "© 2024 Francisco González Urriola. All rights reserved."
+    "copyright": "2024 Francisco González Urriola"
   }
 }

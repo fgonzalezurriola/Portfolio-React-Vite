@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Code } from 'lucide-react';
+import { FaCode } from "react-icons/fa";
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   return (
     <section id="home" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12">
       <div className="container mx-auto px-6 text-center">
-        <Code size={64} className="mx-auto mb-6" />
+        <FaCode size={64} className="mx-auto mb-6" />
         <h1 className="text-4xl md:text-6xl font-bold mb-2">
           {t('hero.greeting')} <span className="text-yellow-300">{t('hero.name')}</span>
         </h1>

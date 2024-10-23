@@ -1,8 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { BookMarked, BookUser } from 'lucide-react';
-import { FaGithub, FaRust } from 'react-icons/fa'; 
+import { FaGithub } from 'react-icons/fa'; 
 import { CgWebsite } from "react-icons/cg";
+import { TbSandbox } from "react-icons/tb";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Projects: React.FC = () => {
       deploy: ''
     },
     { 
-      icon: FaRust, 
+      icon: TbSandbox, 
       title: 'projects.project2.title', 
       description: 'projects.project2.description', 
       githubLink: 'https://github.com/fgonzalezurriola/Zona-de-Pruebas-de-Rust',
@@ -52,7 +53,7 @@ const Projects: React.FC = () => {
                   href={project.githubLink} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex mx-2 items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                  className="inline-flex mx-2 items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
                 >
                   {t('projects.code')}
                   <FaGithub className="ml-3" size={20} />
@@ -65,7 +66,7 @@ const Projects: React.FC = () => {
                   href={project.deploy}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex mx-2 items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-300"
+                  className="inline-flex mx-2 items-center px-4 py-2 bg-yellow-400 text-white rounded-lg hover:bg-yellow-600 transition-colors duration-300"
                 >
                   {t('projects.deployed')}
                   <CgWebsite className="ml-3" size={20} />
