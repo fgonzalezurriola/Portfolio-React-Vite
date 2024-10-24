@@ -11,17 +11,17 @@ const Contact: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-8">{t('contact.title')}</h2>
         <div className="flex justify-center space-x-8">
           {/* Gmail */}
-          <a href="mailto:fgonzalezurriola@gmail.com" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
+          <a href="mailto:fgonzalezurriola@gmail.com" target="_blank" rel="noreferrer noopener" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
             <FaEnvelope className="text-5xl" />
             <p className="text-center mt-2">{t('contact.email')}</p>
           </a>
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/fgonzalezurriola/" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
+          <a href="https://www.linkedin.com/in/fgonzalezurriola/" target="_blank" rel="noreferrer noopener" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
             <FaLinkedin className="text-5xl ml-2" />
             <p className="text-center mt-2 ml-2">LinkedIn</p>
           </a>
           {/* Telegram */}
-          <a href="https://t.me/fgonzalezurriola" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
+          <a href="https://t.me/fgonzalezurriola" target="_blank" rel="noreferrer noopener"  className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
             <FaTelegram className="text-5xl mr-0" />
             <p className="text-center mt-2">Telegram</p>
           </a>

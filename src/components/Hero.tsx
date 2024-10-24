@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   
-  const resumeFile = t('header.resume') === 'Download Resume'
+  const resumeFile = t('header.resume') === 'Download resume'
     ? 'cv-en.pdf'
     : 'cv-es.pdf';
   
