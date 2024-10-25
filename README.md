@@ -199,5 +199,3 @@ If you're interested in learning more about me or my projects, feel free to reac
 Thank you for visiting my portfolio. Remember that you can download my resume in my portfolio.I look forward to the opportunity to collaborate with you!
 
 ---
-
-Let me know if you'd like to adjust any part or add more details!
