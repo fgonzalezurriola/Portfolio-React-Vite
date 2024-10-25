@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-8">{t('contact.title')}</h2>
         <div className="flex justify-center space-x-8">
           {/* Gmail */}
-          <a href="mailto:fgonzalezurriola@gmail.com" target="_blank" rel="noreferrer noopener" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
+          <a href="mailto:fgonzalezurriola@gmail.com" target="_blank" rel="noreferrer noopener"  className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition duration-300 flex flex-col items-center">
             <FaEnvelope className="text-5xl" />
             <p className="text-center mt-2">{t('contact.email')}</p>
           </a>

@@ -30,6 +30,10 @@
       "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
     },
     "project3": {
+      "title": "Mallas FCFM - fgonzalezurriola",
+      "description": "Una aplicación web que muestra la malla curricular de la carrera de Ingeniería Civil en Computación de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
+    },
+    "project4": {
       "title": "Portafolio",
       "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
     },

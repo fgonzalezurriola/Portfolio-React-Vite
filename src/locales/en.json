@@ -30,9 +30,13 @@
       "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
     },
     "project3": {
+      "title": "Mallas FCFM - fgonzalezurriola",
+      "description": "A web application that displays the study plans of the Computer Engineering program at the University of Chile, built with React, Tailwind CSS and TypeScript."
+    },    
+    "project4": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
-    },      
+    },     
     "code": "Code",
     "deployed": "Website"
   },

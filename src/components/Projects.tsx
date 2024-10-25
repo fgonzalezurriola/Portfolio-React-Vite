@@ -4,6 +4,7 @@ import { BookMarked, BookUser } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa'; 
 import { CgWebsite } from "react-icons/cg";
 import { TbSandbox } from "react-icons/tb";
+import { GrPlan } from "react-icons/gr";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -24,9 +25,16 @@ const Projects: React.FC = () => {
       deploy: 'https://zona-de-pruebas-de-rust.vercel.app/'
     },
     { 
-      icon: BookUser, 
+      icon: GrPlan, 
       title: 'projects.project3.title', 
       description: 'projects.project3.description', 
+      githubLink: 'https://mallas-fcfm-fgonzalezurriola.vercel.app/',
+      deploy: 'https://users.dcc.uchile.cl/~fragonza/'
+    },
+    { 
+      icon: BookUser, 
+      title: 'projects.project4.title', 
+      description: 'projects.project4.description', 
       githubLink: 'https://github.com/fgonzalezurriola/Portfolio-React-Vite',
       deploy: 'https://users.dcc.uchile.cl/~fragonza/'
     }
