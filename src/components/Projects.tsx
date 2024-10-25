@@ -28,8 +28,8 @@ const Projects: React.FC = () => {
       icon: GrPlan, 
       title: 'projects.project3.title', 
       description: 'projects.project3.description', 
-      githubLink: 'https://mallas-fcfm-fgonzalezurriola.vercel.app/',
-      deploy: 'https://users.dcc.uchile.cl/~fragonza/'
+      githubLink: 'https://github.com/fgonzalezurriola/Mallas-Fcfm-fgonzalezurriola',
+      deploy: 'https://mallas-fcfm-fgonzalezurriola.vercel.app/'
     },
     { 
       icon: BookUser, 
