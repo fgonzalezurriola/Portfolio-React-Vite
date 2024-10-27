@@ -31,7 +31,7 @@
     },
     "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
-      "description": "Una aplicación web que muestra la malla curricular de la carrera de Ingeniería Civil en Computación de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
+      "description": "Una aplicación web que muestra la malla curricular de las carreras impartidas en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
     },
     "project4": {
       "title": "Portafolio",

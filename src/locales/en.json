@@ -31,7 +31,7 @@
     },
     "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
-      "description": "A web application that displays the study plans of the Computer Engineering program at the University of Chile, built with React, Tailwind CSS and TypeScript."
+      "description": "A web application that displays the study plans of the programs offered at the University of Chile, built with React, Tailwind CSS and TypeScript."
     },    
     "project4": {
       "title": "Portfolio",
