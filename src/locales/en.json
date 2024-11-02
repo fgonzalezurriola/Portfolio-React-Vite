@@ -34,6 +34,10 @@
       "description": "A web application that displays the study plans of the programs offered at the University of Chile, built with React, Tailwind CSS and TypeScript."
     },    
     "project4": {
+      "title": "Chilean Birds",
+      "description": "A simple project where you cand find cards of the chilean birds. Built using React, Tailwind, Axios and Express that uses the API https://aves.ninjas.cl/api/birds with information of the birds from chile"
+    },     
+    "project5": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
     },     

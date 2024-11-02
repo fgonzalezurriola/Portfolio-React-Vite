@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { BookMarked, BookUser } from 'lucide-react';
+import { BookMarked, BookUser, Bird } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa'; 
 import { CgWebsite } from "react-icons/cg";
 import { TbSandbox } from "react-icons/tb";
@@ -30,6 +30,13 @@ const Projects: React.FC = () => {
       description: 'projects.project3.description', 
       githubLink: 'https://github.com/fgonzalezurriola/Mallas-Fcfm-fgonzalezurriola',
       deploy: 'https://mallas-fcfm-fgonzalezurriola.vercel.app/'
+    },
+    { 
+      icon: Bird, 
+      title: 'projects.project4.title', 
+      description: 'projects.project4.description', 
+      githubLink: 'https://github.com/fgonzalezurriola/Chilean-birds',
+      deploy: 'https://chilean-birds-eight.vercel.app/'
     },
     { 
       icon: BookUser, 

@@ -34,6 +34,10 @@
       "description": "Una aplicación web que muestra la malla curricular de las carreras impartidas en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
     },
     "project4": {
+      "title": "Chilean Birds",
+      "description": "Un proyecto simple donde puedes encontrar fotos de las aves chilenas. Construido utilizando React, Tailwind, Axios y Express que utiliza la API https://aves.ninjas.cl/api/birds con información de las aves de Chile."
+    },
+    "project5": {
       "title": "Portafolio",
       "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
     },
