@@ -40,8 +40,8 @@ const Projects: React.FC = () => {
     },
     { 
       icon: BookUser, 
-      title: 'projects.project4.title', 
-      description: 'projects.project4.description', 
+      title: 'projects.project5.title', 
+      description: 'projects.project5.description', 
       githubLink: 'https://github.com/fgonzalezurriola/Portfolio-React-Vite',
       deploy: 'https://users.dcc.uchile.cl/~fragonza/'
     }
