@@ -12,9 +12,15 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-1750%)' },
         },
+        'scroll-mobile': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-3000%)' }, 
+        },
       },
       animation: {
         scroll: 'scroll 150s linear infinite',
+        'scroll-fast': 'scroll 80s linear infinite',
+        'scroll-mobile': 'scroll-mobile 80s linear infinite',
       },
     },
   },

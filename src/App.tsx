@@ -31,8 +31,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
-        <div className="fixed top-1.5 right-4 flex space-x-2">
-          <button
+        <div className="fixed top-16 right-4 flex space-x-2 sm:top-1.5">          <button
             onClick={toggleTheme}
             className={`p-2 rounded-full transition-colors duration-300 ${
               isDarkMode ? 'bg-gray-200 text-gray-800' : 'bg-gray-600 text-yellow-300'
