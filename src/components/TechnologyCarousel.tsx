@@ -22,7 +22,7 @@ const TechnologyCarousel: React.FC = () => {
   const doubledTechnologies = Array(12).fill(technologies).flat();
 
   return (
-    <div className="relative h-30 overflow-hidden sm:w-1/2 w-full mx-auto mb-2">
+    <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto mb-2">      
       {/* Fade out and fade in */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-gray-100 dark:from-gray-800 to-transparent z-10" />

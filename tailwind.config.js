@@ -14,7 +14,7 @@ export default {
         },
         'scroll-mobile': {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-3000%)' }, 
+          '100%': { transform: 'translateX(-2000%)' }, 
         },
       },
       animation: {
