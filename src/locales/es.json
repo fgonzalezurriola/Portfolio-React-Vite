@@ -23,11 +23,10 @@
     "project1": {
       "title": "DCCPlaces",
       "description": "Plataforma para la reserva de espacios dentro del Departamento de Ciencias de la Computación, construida en equipo, utilizando Python con el framework Django. Actualmente, el código del repositorio es privado."
-
     },
     "project2": {
-      "title": "Zona de Pruebas de Rust",
-      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
+      "title": "Gym Data Project",
+      "description": "Plataforma de análisis de datos para gimnasios usando FastAPI, PostgreSQL y React. Ofrece un dashboard interactivo con métricas sacadas de consultas SQL. Frontend en Vercel y backend en Render."
     },
     "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
@@ -40,6 +39,10 @@
     "project5": {
       "title": "Portafolio",
       "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
+    },
+    "project6": {
+      "title": "Zona de Pruebas de Rust",
+      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
     },
     "code": "Código",
     "deployed": "Sitio web"

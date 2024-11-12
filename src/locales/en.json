@@ -23,11 +23,10 @@
     "project1": {
       "title": "DCCPlaces",
       "description": "A platform for reserving spaces within the Department of Computer Science, developed as part of a team using Python and the Django framework. Currently, the repository is private."
-
     },
     "project2": {
-      "title": "Rust Playground",
-      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
+      "title": "Gym Data Project",
+      "description": "Data analysis platform for gyms using FastAPI, PostgreSQL, and React. Features an interactive dashboard with metrics extracted from SQL queries. Frontend hosted on Vercel and backend on Render."
     },
     "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
@@ -40,7 +39,11 @@
     "project5": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
-    },     
+    },
+    "project6": {
+      "title": "Rust Playground",
+      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
+    },
     "code": "Code",
     "deployed": "Website"
   },
