@@ -25,14 +25,14 @@ const Hero: React.FC = () => {
           >
             {t('header.contact')}
           </a>
-          <a
+          {/* <a
             href={resumeFile}
             download
             type="application/pdf"
             className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-blue-100 transition duration-300"
           >
             {t('header.resume')}
-          </a>
+          </a> */}
           <a 
             href="https://github.com/fgonzalezurriola" target="_blank" rel="noreferrer noopener"
             className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-blue-100 transition duration-300"
