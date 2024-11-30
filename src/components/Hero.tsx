@@ -5,12 +5,12 @@ import { FaCode } from "react-icons/fa";
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   
-  const resumeFile = t('header.resume') === 'Download resume'
-    ? 'cv-en.pdf'
-    : 'cv-es.pdf';
+  // const resumeFile = t('header.resume') === 'Download resume'
+  //   ? 'cv-en.pdf'
+  //   : 'cv-es.pdf';
   
   return (
-    <section id="home" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12">
+    <section id="home" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-12">
       <div className="container mx-auto px-4 sm:px-6 text-center">
         <FaCode size={48} className="mx-auto mb-4" />
         <h1 className="text-3xl md:text-5xl font-bold mb-2">

@@ -49,7 +49,9 @@ function App() {
           <button
             onClick={toggleTheme}
             className={`p-2 rounded-full transition-colors duration-300 ${
-              isDarkMode ? 'bg-gray-200 text-gray-800' : 'bg-gray-600 text-yellow-300'
+              isDarkMode 
+              ? 'bg-gray-200 hover:bg-gray-400 text-gray-800'
+              : 'bg-gray-600 hover:bg-gray-800 text-yellow-300'
             }`}
           >
             {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
@@ -58,7 +60,9 @@ function App() {
           <button
             onClick={toggleLanguage}
             className={`p-2 rounded-full transition-colors duration-300 ${
-              isDarkMode ? 'bg-gray-200 text-gray-800' : 'bg-gray-600 text-white'
+              isDarkMode 
+              ? 'bg-gray-200 hover:bg-gray-400 text-gray-800' 
+              : 'bg-gray-600 hover:bg-gray-800 text-white'
             }`}
           >
             <Globe size={20} />

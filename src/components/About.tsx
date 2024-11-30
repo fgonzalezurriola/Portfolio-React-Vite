@@ -7,16 +7,16 @@ const About: React.FC = () => {
 
   return (
     <section id="about" className="py-6 bg-gray-100 dark:bg-gray-800">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mt-4 mb-4">{t('about.title')}</h2>
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-lg text-gray-700 dark:text-gray-300 text-justify py-6">
-            {t('about.description')}
-          </p>
-          <p className="text-lg text-gray-700 dark:text-gray-300 text-justify m-auto">
-            {t('about.description1')}
-          </p>
-        </div>
+      <div className="max-w-2xl mx-auto px-6 text-center">
+        <h2 className="text-5xl font-semibold text-start mt-6">
+        {t('about.title')}
+        </h2>
+        <p className="text-lg text-gray-700 dark:text-gray-300 text-start text-wrap py-6">
+          {t('about.description')}
+        </p>
+        <p className="text-lg text-gray-700 dark:text-gray-300 text-start text-wrap">
+          {t('about.description1')}
+        </p>
       </div>
       <h2 className="text-3xl font-bold text-center py-6">{t('about.technologies')}</h2>
       <TechnologyCarousel />

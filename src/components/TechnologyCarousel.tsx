@@ -1,13 +1,12 @@
 import React from 'react';
 import { FaPython, FaReact, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaNodeJs} from 'react-icons/fa';
-import { SiDjango, SiFlask, SiMongodb, SiPostgresql, SiTailwindcss, SiTypescript} from 'react-icons/si';
+import { SiDjango, SiFlask, SiPostgresql, SiTailwindcss, SiTypescript, SiDocker} from 'react-icons/si';
 
 const technologies = [
   { name: 'Python', icon: <FaPython /> },
   { name: 'Django', icon: <SiDjango /> },
   { name: 'Flask', icon: <SiFlask /> },
   { name: 'MySQL', icon: <FaDatabase /> },
-  { name: 'MongoDB', icon: <SiMongodb /> },
   { name: 'PostgreSQL', icon: <SiPostgresql /> },
   { name: 'React.js', icon: <FaReact /> },
   { name: 'JavaScript', icon: <FaJs /> },
@@ -16,6 +15,7 @@ const technologies = [
   { name: 'HTML', icon: <FaHtml5 /> },
   { name: 'CSS', icon: <FaCss3Alt /> },
   { name: 'Tailwind', icon: <SiTailwindcss /> },
+  { name: 'Docker', icon: <SiDocker /> },
 ];
 
 const TechnologyCarousel: React.FC = () => {
