@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <a 
             href="#contact"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-blue-100 transition duration-300"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
           >
             {t('header.contact')}
           </a>
@@ -33,13 +33,13 @@ const Hero: React.FC = () => {
             href={resumeFile}
             download
             type="application/pdf"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-blue-100 transition duration-300"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
           >
             {t('header.resume')}
           </a> */}
           <a 
             href="https://github.com/fgonzalezurriola" target="_blank" rel="noreferrer noopener"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-blue-100 transition duration-300"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
           >
             Github
           </a>
