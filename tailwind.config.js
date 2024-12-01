@@ -22,6 +22,10 @@ export default {
         'scroll-fast': 'scroll 80s linear infinite',
         'scroll-mobile': 'scroll-mobile 80s linear infinite',
       },
+      scale: {
+        115: '1.15',
+        120: '1.20',
+      },
     },
   },
   plugins: [],

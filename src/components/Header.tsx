@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <header className="bg-white dark:bg-gray-800 shadow-md">
+    <header className="bg-white dark:bg-gray-800 shadow-md transition-colors duration-1000">
       <nav className="container mx-auto px-4 py-3">
         <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-6">
           <li>

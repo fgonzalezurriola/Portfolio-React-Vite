@@ -6,7 +6,7 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="py-6 bg-gray-100 dark:bg-gray-800">
+    <section id="about" className="py-6 bg-gray-100 dark:bg-gray-800 transition-colors duration-1000">
       <div className="max-w-2xl mx-auto px-6 text-center">
         <h2 className="text-5xl font-semibold text-start mt-6">
         {t('about.title')}
@@ -18,8 +18,12 @@ const About: React.FC = () => {
           {t('about.description1')}
         </p>
       </div>
-      <h2 className="text-3xl font-bold text-center py-6">{t('about.technologies')}</h2>
+
+      <h2 className="text-3xl font-bold text-center py-6">
+        {t('about.technologies')}
+      </h2>
       <TechnologyCarousel />
+      
     </section>
   );
 };

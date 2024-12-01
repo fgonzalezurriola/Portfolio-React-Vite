@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div 
               key={index} 
-              className="relative bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md p-6 transition-transform duration-300 hover:scale-105"
+              className="relative bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md p-6 transition-transform duration-200 hover:scale-105"
             >
               <project.icon size={48} className="text-blue-500 mb-4" />
               <h3 className="text-xl font-semibold mb-2">{t(project.title)}</h3>
@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
                   href={project.githubLink} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex mx-2 items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                  className="inline-flex mx-2 items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 duration-200 transition-transform hover:scale-125"
                 >
                   {t('projects.code')}
                   <FaGithub className="ml-3" size={20} />
