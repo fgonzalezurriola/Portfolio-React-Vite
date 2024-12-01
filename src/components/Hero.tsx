@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     <section id="home" className="bg-gradient-to-r text-white py-12
     from-blue-500 to-purple-800
     dark:from-sky-400 dark:to-purple-600
-    transition-colors duration-1000
+    transition-colors
     ">
       <div className="container mx-auto px-4 sm:px-6 text-center">
         <FaCode size={48} className="mx-auto mb-4" />

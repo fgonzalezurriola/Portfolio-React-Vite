@@ -16,7 +16,7 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
     <div className="fixed top-16 right-4 flex space-x-2 sm:top-1.5 z-20">
       <button
         onClick={toggleTheme}
-        className={`p-2 rounded-full transition-colors duration-300 ${
+        className={`p-2 rounded-full transition-colors ${
           isDarkMode
           ? 'bg-gray-200 hover:bg-gray-400 text-gray-800'
           : 'bg-gray-600 hover:bg-gray-800 text-yellow-300'}`}
@@ -28,7 +28,7 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
 
       <button
         onClick={toggleLanguage}
-        className={`p-2 rounded-full transition-colors duration-300 ${
+        className={`p-2 rounded-full transition-colors ${
           isDarkMode
           ? 'bg-gray-200 hover:bg-gray-400 text-gray-800'
           : 'bg-gray-600 hover:bg-gray-800 text-white'}`}
