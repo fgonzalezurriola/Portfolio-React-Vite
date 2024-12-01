@@ -18,12 +18,7 @@ const About: React.FC = () => {
           {t('about.description1')}
         </p>
       </div>
-
-      <h2 className="text-3xl font-bold text-center py-6">
-        {t('about.technologies')}
-      </h2>
-      <TechnologyCarousel />
-      
+      <TechnologyCarousel />      
     </section>
   );
 };

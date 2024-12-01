@@ -4,30 +4,36 @@ import { useTranslation } from 'react-i18next';
 const Header: React.FC = () => {
   const { t } = useTranslation();
 
+  const navItems = [
+    { href: '#home', label: 'header.home' },
+    { href: '#about', label: 'header.about' },
+    { href: '#projects', label: 'header.projects' },
+    { href: '#contact', label: 'header.contact' },
+  ];
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const section = document.querySelector(href);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <header className="bg-white dark:bg-gray-800 shadow-md transition-colors">
-      <nav className="container mx-auto px-4 py-3">
+      <nav className="container mx-auto px-4 py-3" aria-label="Main navigation">
         <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-6">
-          <li className="transition-transform hover:scale-115">
-            <a href="#home" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">
-              {t('header.home')}
-            </a>
-          </li>
-          <li className="transition-transform hover:scale-115">
-            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">
-              {t('header.about')}
-            </a>
-          </li>
-          <li className="transition-transform hover:scale-115">
-            <a href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">
-              {t('header.projects')}
-            </a>
-          </li>
-          <li className="transition-transform hover:scale-115">
-            <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">
-              {t('header.contact')}
-            </a>
-          </li>
+          {navItems.map((item) => (
+            <li key={item.href} className="transition-transform hover:scale-115">
+              <a
+                href={item.href}
+                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-transform hover:scale-115"
+                onClick={(e) => handleClick(e, item.href)}
+              >
+                {t(item.label)}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>

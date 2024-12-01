@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaPython, FaReact, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaNodeJs} from 'react-icons/fa';
 import { SiDjango, SiFlask, SiPostgresql, SiTailwindcss, SiTypescript, SiDocker} from 'react-icons/si';
 
@@ -19,12 +20,17 @@ const technologies = [
 ];
 
 const TechnologyCarousel: React.FC = () => {
+  const { t } = useTranslation();
   const doubledTechnologies = Array(12).fill(technologies).flat();
 
   return (
-    <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto mb-2">      
+    <>
+    <h2 className="text-5xl font-bold text-center py-6">
+    {t('about.technologies')}
+    </h2>
+    <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto py-6 transition-colors">      
       {/* Fade out and fade in */}
-      <div className="absolute inset-0 pointer-events-none transition-colors duration-1000">
+      <div className="absolute inset-0 pointer-events-none transition-colors">
         <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-gray-100 dark:from-gray-800 to-transparent z-10" />
         <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-gray-100 dark:from-gray-800 to-transparent z-10" />
       </div>
@@ -39,6 +45,7 @@ const TechnologyCarousel: React.FC = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
