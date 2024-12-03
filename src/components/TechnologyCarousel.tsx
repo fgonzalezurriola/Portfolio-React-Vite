@@ -25,12 +25,12 @@ const TechnologyCarousel: React.FC = () => {
 
   return (
     <>
-    <h2 className="text-3xl font-bold text-center py-6">
+    <h2 className="text-3xl md:text-5xl font-bold text-center py-6">
     {t('about.technologies')}
     </h2>
     <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto py-6 transition-colors">      
       {/* Fade out and fade in */}
-      <div className="absolute inset-0 pointer-events-none transition-colors">
+      <div className="absolute inset-0 pointer-events-none">
         <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-gray-100 dark:from-gray-800 to-transparent z-10" />
         <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-gray-100 dark:from-gray-800 to-transparent z-10" />
       </div>
