@@ -60,9 +60,10 @@ const Projects: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-12">{t('projects.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div 
+            <article 
               key={index} 
-              className="relative bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md p-6 transition-transform duration-200 hover:scale-105"
+              className="relative bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md p-6 
+              transition-transform duration-200 hover:scale-105"
             >
               <project.icon size={48} className="text-blue-500 mb-4" />
               <h3 className="text-xl font-semibold mb-2">{t(project.title)}</h3>
@@ -98,7 +99,7 @@ const Projects: React.FC = () => {
               )}
               </div>
               
-            </div>
+            </article>
           ))}
         </div>
       </div>
