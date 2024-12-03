@@ -13,7 +13,11 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
   toggleLanguage,
 }) => {
   return (
-    <div className="fixed top-16 right-4 flex space-x-2 sm:top-1.5 z-20">
+    <div className="flex space-x-3 right-4 z-20
+    absolute md:fixed 
+    top-16 md:top-1.5
+    
+    ">
       <button
         onClick={toggleTheme}
         className={`p-2 rounded-full transition-colors ${

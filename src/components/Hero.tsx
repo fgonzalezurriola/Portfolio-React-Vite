@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
     ">
       <div className="container mx-auto px-4 sm:px-6 text-center">
         <FaCode size={48} className="mx-auto mb-4" />
-        <h1 className="text-3xl md:text-5xl font-bold mb-2">
+        <h1 className="text-4xl md:text-5xl font-bold mb-2">
           {t('hero.greeting')} <span className="text-yellow-300">{t('hero.name')}</span>
         </h1>
         <p className="text-lg md:text-xl mb-6">{t('hero.title')}</p>

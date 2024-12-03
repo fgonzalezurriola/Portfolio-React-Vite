@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-16 bg-gray-100 dark:bg-gray-800 transition-color">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">{t('contact.title')}</h2>
-        <div className="flex justify-center space-x-20">
+        <div className="flex justify-center space-x-8 md:space-x-20">
           {/* Gmail */}
           <button onClick={handleEmailClick} 
           className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500 

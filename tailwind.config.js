@@ -26,6 +26,9 @@ export default {
         115: '1.15',
         120: '1.20',
       },
+      hiddenBackface: {
+        '0%': { backfaceVisibility: 'hidden' },
+      }
     },
   },
   plugins: [],
