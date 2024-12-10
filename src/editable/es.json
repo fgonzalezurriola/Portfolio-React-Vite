@@ -1,0 +1,57 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "resume": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Francisco González Urriola",
+    "title": "Estudiante de Ingeniería en Computación"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Me llamo Francisco González Urriola, pero mis amigos me dicen Pancho. La primera vez que programé fue en un taller de robótica utilizando Python cuando tenía 12 años. Desde entonces he avanzado hasta estar en el tercer año de la carrera de Ingeniería Civil en Computación en la Universidad de Chile.",
+    "description1": "Parte de mi progreso incluye estar cursando adelantadamente Ingeniería de Software y Desarrollo de Aplicaciones Web para adquirir conocimientos y herramientas que me permitan aplicar mis habilidades en proyectos reales. Puedes encontrar algunos de mis proyectos más abajo.",
+    "description2": "",
+    "technologies": "Tecnologías"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "project1": {
+      "title": "DCCPlaces",
+      "description": "Plataforma para la reserva de espacios dentro del Departamento de Ciencias de la Computación, construida en equipo, utilizando Python con el framework Django. Actualmente, el código del repositorio es privado."
+    },
+    "project2": {
+      "title": "Gym Data Project",
+      "description": "Plataforma de análisis de datos para gimnasios usando FastAPI, PostgreSQL y React. Ofrece un dashboard interactivo con métricas sacadas de consultas SQL. Frontend en Vercel y backend en Render."
+    },
+    "project3": {
+      "title": "Mallas FCFM - fgonzalezurriola",
+      "description": "Una aplicación web que muestra la malla curricular de las carreras impartidas en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
+    },
+    "project4": {
+      "title": "Chilean Birds",
+      "description": "Un proyecto simple donde puedes encontrar fotos de las aves chilenas. Construido utilizando React, Tailwind, Axios y Express que utiliza la API https://aves.ninjas.cl/api/birds con información de las aves de Chile."
+    },
+    "project5": {
+      "title": "Portafolio",
+      "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
+    },
+    "project6": {
+      "title": "Zona de Pruebas de Rust",
+      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
+    },
+    "code": "Código",
+    "deployed": "Sitio web"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "2024 Francisco González Urriola."
+  }
+}
