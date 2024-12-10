@@ -2,7 +2,7 @@
 
 Bienvenido a mi portafolio personal, este proyecto está diseñado para mostrar mis habilidades como desarrollador full stack, mis proyectos más destacados y mi trayectoria académica. Aquí podrás conocer más sobre mí y cómo utilizo tecnologías modernas para construir aplicaciones web eficientes y escalables.
 
-### Tecnologías clave:
+## Tecnologías clave
 
 - **Frontend**: React, HTML, Tailwind CSS, TypeScript
 - **Herramientas**: Git, Vite
@@ -33,9 +33,9 @@ Este portafolio tiene como objetivo destacar mis habilidades técnicas y proyect
 
 ## 🌐 Despliegue
 
-Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar un repositorio y el despliegue automático se encargará de la configuración. 
+Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar un repositorio y el despliegue automático se encargará de la configuración.
 
-Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación en https://users.dcc.uchile.cl/~fragonza/
+Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación en [https://users.dcc.uchile.cl/~fragonza/](https://users.dcc.uchile.cl/~fragonza/)
 
 ## 🖥️ Instalación y Uso
 
@@ -100,7 +100,7 @@ Gracias por visitar mi portafolio. Recuerda que puedes descargar mi CV en él. �
 
 Welcome to my personal portfolio. This project is designed to showcase my skills as a full stack developer, highlight my most notable projects, and present my academic background. Here, you can learn more about me and how I use modern technologies to build efficient and scalable web applications.
 
-### Key Technologies:
+## Key Technologies
 
 - **Frontend**: React, HTML, Tailwind CSS, TypeScript
 - **Tools**: Git, Vite
@@ -133,7 +133,7 @@ This portfolio aims to highlight my technical skills and projects while providin
 
 This project is designed to be easily deployed on platforms like **Vercel** or **Netlify**. Just connect a repository, and automatic deployment will handle the setup.
 
-It is currently hosted on the Apache server of the Computer Science Department at https://users.dcc.uchile.cl/~fragonza/
+It is currently hosted on the server of the Computer Science Department at [https://users.dcc.uchile.cl/~fragonza/](https://users.dcc.uchile.cl/~fragonza/)
 
 ## 🖥️ Installation and Usage
 
