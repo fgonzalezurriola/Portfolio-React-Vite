@@ -24,10 +24,6 @@
       "title": "DCCPlaces",
       "description": "A platform for reserving spaces within the Department of Computer Science, developed as part of a team using Python and the Django framework. Currently, the repository is private."
     },
-    "project2": {
-      "title": "Gym Data Project",
-      "description": "Data analysis platform for gyms using FastAPI, PostgreSQL, and React. Features an interactive dashboard with metrics extracted from SQL queries. Frontend hosted on Vercel and backend on Render."
-    },
     "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
       "description": "A web application that displays the study plans of the programs offered at the University of Chile, built with React, Tailwind CSS and TypeScript."
