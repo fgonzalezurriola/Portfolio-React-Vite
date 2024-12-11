@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
   theme: {
@@ -14,7 +14,7 @@ module.exports = {
         },
         'scroll-mobile': {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-2000%)' },
+          '100%': { transform: 'translateX(-2000%)' }, 
         },
       },
       animation: {
@@ -32,4 +32,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

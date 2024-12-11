@@ -25,27 +25,32 @@
       "description": "A platform for reserving spaces within the Department of Computer Science, developed as part of a team using Python and the Django framework. Currently, the repository is private."
     },
     "project2": {
-      "title": "Gym Data Project",
-      "description": "Data analysis platform for gyms using FastAPI, PostgreSQL, and React. Features an interactive dashboard with metrics extracted from SQL queries. Frontend hosted on Vercel and backend on Render."
-    },
-    "project3": {
       "title": "Mallas FCFM - fgonzalezurriola",
       "description": "A web application that displays the study plans of the programs offered at the University of Chile, built with React, Tailwind CSS and TypeScript."
     },    
-    "project4": {
+    "project3": {
       "title": "Chilean Birds",
       "description": "A simple project where you cand find cards of the chilean birds. Built using React, Tailwind, Axios and Express that uses the API https://aves.ninjas.cl/api/birds with information of the birds from chile"
     },     
-    "project5": {
+    "project4": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
     },
-    "project6": {
+    "project5": {
       "title": "Rust Playground",
       "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
     },
     "code": "Code",
     "deployed": "Website"
+  },
+  "Experience": {
+    "title": "Experience",
+    "experience1": {
+      "title": "Title",
+      "company": "Company",
+      "date": "August 2022 - December 2022",
+      "description": "Description"
+    }
   },
   "contact": {
     "title": "Get in Touch",
