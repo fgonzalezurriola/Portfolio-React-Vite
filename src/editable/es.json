@@ -47,6 +47,15 @@
     "code": "Código",
     "deployed": "Sitio web"
   },
+  "Experience": {
+    "title": "Experiencia",
+    "experience1": {
+      "title": "Título",
+      "company": "Compañía",
+      "date": "Agosto 2022 - Diciembre 2022",
+      "description": "Descripción"
+    }
+  },
   "contact": {
     "title": "Ponte en Contacto",
     "email": "Email"

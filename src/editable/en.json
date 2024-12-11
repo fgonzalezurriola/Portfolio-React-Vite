@@ -47,6 +47,15 @@
     "code": "Code",
     "deployed": "Website"
   },
+  "Experience": {
+    "title": "Experience",
+    "experience1": {
+      "title": "Title",
+      "company": "Company",
+      "date": "August 2022 - December 2022",
+      "description": "Description"
+    }
+  },
   "contact": {
     "title": "Get in Touch",
     "email": "Email"
