@@ -14,8 +14,8 @@ const Projects: React.FC = () => {
       icon: BookMarked,
       title: 'projects.project1.title',
       description: 'projects.project1.description',
-      githubLink: '',
-      deploy: ''
+      githubLink: 'asd',
+      deploy: 'asd'
     },
     {
       icon: GrPlan,
@@ -48,50 +48,45 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-12 transition-color">
+    <section className="py-12 transition-color">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12">{t('projects.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <article
               key={index}
-              className="relative bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md p-6
-              transition-transform duration-200 hover:scale-105"
+              className="bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md flex flex-col h-full transition-transform duration-200 hover:scale-105"
             >
-              <project.icon size={48} className="text-blue-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{t(project.title)}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-12">{t(project.description)}</p>
-
-              <div className="flex justify-start items-end absolute bottom-4 left-4 right-4">
-              {/* GitHub button only if the link is defined */}
-              {project.githubLink && (
-                <a
-                  href={project.githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex mx-2 items-center px-4 py-2 text-lg text-white rounded-lg
-                  bg-blue-500 hover:bg-blue-700 duration-200 transition-all hover:scale-115"
-                >
-                  {t('projects.code')}
-                  <FaGithub className="ml-3" size={20} />
-                </a>
-              )}
-
-              {/* Deploy button only if the link is defined */}
-              {project.deploy && (
-                <a
-                  href={project.deploy}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex mx-2 items-center px-4 py-2 text-lg text-white rounded-lg
-                  bg-yellow-400 hover:bg-yellow-600 duration-200 transition-all hover:scale-115"
-                >
-                  {t('projects.deployed')}
-                  <CgWebsite className="ml-3" size={20} />
-                </a>
-              )}
+              <div className="p-6 flex-grow">
+                <project.icon size={48} className="text-blue-500 mb-4" />
+                <h3 className="text-xl font-semibold mb-2">{t(project.title)}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-6">{t(project.description)}</p>
               </div>
-
+              
+              <div className="p-6 pt-0 flex flex-wrap gap-4">
+                {project.githubLink && (
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-blue-500 hover:bg-blue-700 duration-200 transition-all hover:scale-115"
+                  >
+                    {t('projects.code')}
+                    <FaGithub className="ml-2" size={16} />
+                  </a>
+                )}
+                {project.deploy && (
+                  <a
+                    href={project.deploy}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-yellow-400 hover:bg-yellow-600 duration-200 transition-all hover:scale-115"
+                  >
+                    {t('projects.deployed')}
+                    <CgWebsite className="ml-2" size={16} />
+                  </a>
+                )}
+              </div>
             </article>
           ))}
         </div>
