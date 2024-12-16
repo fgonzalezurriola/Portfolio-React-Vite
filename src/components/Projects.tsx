@@ -14,14 +14,15 @@ const Projects: React.FC = () => {
       icon: BookMarked,
       title: "projects.project1.title",
       description: "projects.project1.description",
-      githubLink: "asd",
-      deploy: "asd",
+      githubLink: "",
+      deploy: "",
     },
     {
       icon: GrPlan,
       title: "projects.project2.title",
       description: "projects.project2.description",
-      githubLink: "https://github.com/fgonzalezurriola/Mallas-Fcfm-fgonzalezurriola",
+      githubLink:
+        "https://github.com/fgonzalezurriola/Mallas-Fcfm-fgonzalezurriola",
       deploy: "https://mallas-fcfm-fgonzalezurriola.vercel.app/",
     },
     {
