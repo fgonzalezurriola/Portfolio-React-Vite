@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { BookMarked, BookUser, Bird } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
@@ -71,18 +72,20 @@ const Projects: React.FC = () => {
 
               <div className="p-6 pt-0 flex flex-wrap gap-4">
                 {project.githubLink && (
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.15 }}
+                    whileTap={{ scale: 0.9 }}
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-blue-500 hover:bg-blue-700 duration-200 transition-all hover:scale-115"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-blue-500 hover:bg-blue-700"
                   >
                     {t("projects.code")}
                     <FaGithub className="ml-2" size={16} />
-                  </a>
+                  </motion.a>
                 )}
                 {project.deploy && (
-                  <a
+                  <motion.a
                     href={project.deploy}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -90,7 +93,7 @@ const Projects: React.FC = () => {
                   >
                     {t("projects.deployed")}
                     <CgWebsite className="ml-2" size={16} />
-                  </a>
+                  </motion.a>
                 )}
               </div>
             </article>
