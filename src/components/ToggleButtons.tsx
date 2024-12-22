@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { Sun, Moon, Globe } from "lucide-react";
 
 interface ToggleButtonsProps {
@@ -12,8 +13,15 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
   toggleLanguage,
 }) => {
   return (
-    <div className="flex space-x-3 right-4 z-20 absolute md:fixed top-16 md:top-1.5">
-      <button
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1, duration: 1 }}
+      className="flex space-x-3 right-4 z-20 absolute md:fixed top-16 md:top-1.5"
+    >
+      <motion.button
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.8 }}
         onClick={toggleTheme}
         className={`p-2 rounded-full transition-colors ${
           isDarkMode
@@ -22,9 +30,11 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
         }`}
       >
         {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
-      </button>
+      </motion.button>
 
-      <button
+      <motion.button
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.8 }}
         onClick={toggleLanguage}
         className={`p-2 rounded-full transition-colors ${
           isDarkMode
@@ -33,8 +43,8 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
         }`}
       >
         <Globe size={20} />
-      </button>
-    </div>
+      </motion.button>
+    </motion.div>
   );
 };
 
