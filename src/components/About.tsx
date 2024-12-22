@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import TechnologyCarousel from "./TechnologyCarousel";
 
@@ -5,7 +6,10 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1, duration: 1 }}
       id="about"
       className="py-6 bg-gray-100 dark:bg-gray-800 transition-colors"
     >
@@ -21,7 +25,7 @@ const About: React.FC = () => {
         </p>
       </div>
       <TechnologyCarousel />
-    </section>
+    </motion.section>
   );
 };
 

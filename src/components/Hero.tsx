@@ -11,8 +11,8 @@ const Hero: React.FC = () => {
 
   return (
     <motion.section
-      animate={{ y: [0, 20, 0] }}
-      transition={{ ease: "easeOut", duration: 1 }}
+      animate={{ y: [5, 2.5, 0] }}
+      transition={{ ease: "easeInOut", duration: 1 }}
       id="home"
       className="bg-gradient-to-r text-white py-12
     from-blue-500 to-purple-800
@@ -21,8 +21,9 @@ const Hero: React.FC = () => {
     "
     >
       <motion.div
-        animate={{ y: [0, 20, 0] }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        initial={{ opacity: 0 }}
+        animate={{ y: [4.5, 2.0, 0], opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
         className="container mx-auto px-4 sm:px-6 text-center"
       >
         <FaCode size={48} className="mx-auto mb-4" />
