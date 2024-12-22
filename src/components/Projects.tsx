@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { BookMarked, BookUser, Bird } from "lucide-react";
 import { FaGithub } from "react-icons/fa";

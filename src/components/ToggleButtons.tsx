@@ -1,4 +1,3 @@
-import React from "react";
 import { Sun, Moon, Globe } from "lucide-react";
 
 interface ToggleButtonsProps {
@@ -13,9 +12,7 @@ const ToggleButtons: React.FC<ToggleButtonsProps> = ({
   toggleLanguage,
 }) => {
   return (
-    <div
-      className="flex space-x-3 right-4 z-20 absolute md:fixed top-16 md:top-1.5"
-    >
+    <div className="flex space-x-3 right-4 z-20 absolute md:fixed top-16 md:top-1.5">
       <button
         onClick={toggleTheme}
         className={`p-2 rounded-full transition-colors ${
