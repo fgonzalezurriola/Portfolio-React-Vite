@@ -86,10 +86,12 @@ const Projects: React.FC = () => {
                 )}
                 {project.deploy && (
                   <motion.a
+                    whileHover={{ scale: 1.15 }}
+                    whileTap={{ scale: 0.9 }}
                     href={project.deploy}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-yellow-400 hover:bg-yellow-600 duration-200 transition-all hover:scale-115"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-yellow-400 hover:bg-yellow-600"
                   >
                     {t("projects.deployed")}
                     <CgWebsite className="ml-2" size={16} />
