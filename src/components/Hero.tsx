@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { FaCode } from "react-icons/fa";
 
@@ -9,7 +10,9 @@ const Hero: React.FC = () => {
   //   : 'cv-es.pdf';
 
   return (
-    <section
+    <motion.section
+      animate={{ y: [0, 20, 0] }}
+      transition={{ ease: "easeOut", duration: 1 }}
       id="home"
       className="bg-gradient-to-r text-white py-12
     from-blue-500 to-purple-800
@@ -17,7 +20,11 @@ const Hero: React.FC = () => {
     transition-colors
     "
     >
-      <div className="container mx-auto px-4 sm:px-6 text-center">
+      <motion.div
+        animate={{ y: [0, 20, 0] }}
+        transition={{ ease: "easeOut", duration: 1 }}
+        className="container mx-auto px-4 sm:px-6 text-center"
+      >
         <FaCode size={48} className="mx-auto mb-4" />
         <h1 className="text-4xl md:text-5xl font-bold mb-2">
           {t("hero.greeting")}{" "}
@@ -49,8 +56,8 @@ const Hero: React.FC = () => {
             Github
           </a>
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 };
 

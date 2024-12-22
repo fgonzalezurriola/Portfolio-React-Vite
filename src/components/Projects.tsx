@@ -94,6 +94,7 @@ const Projects: React.FC = () => {
                     className="inline-flex items-center px-4 py-2 text-sm text-white rounded-lg bg-yellow-400 hover:bg-yellow-600"
                   >
                     {t("projects.deployed")}
+
                     <CgWebsite className="ml-2" size={16} />
                   </motion.a>
                 )}
