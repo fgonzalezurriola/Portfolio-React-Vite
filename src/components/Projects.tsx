@@ -73,8 +73,8 @@ const Projects: React.FC = () => {
               <div className="p-6 pt-0 flex flex-wrap gap-4">
                 {project.githubLink && (
                   <motion.a
-                    whileHover={{ scale: 1.15 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -86,8 +86,8 @@ const Projects: React.FC = () => {
                 )}
                 {project.deploy && (
                   <motion.a
-                    whileHover={{ scale: 1.15 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
                     href={project.deploy}
                     target="_blank"
                     rel="noopener noreferrer"

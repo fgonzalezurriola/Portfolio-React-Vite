@@ -34,28 +34,34 @@ const Hero: React.FC = () => {
         <p className="text-lg md:text-xl mb-6">{t("hero.title")}</p>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
             href="#contact"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200"
           >
             {t("header.contact")}
-          </a>
-          {/* <a
+          </motion.a>
+          {/* <motion.a
+            whileHover={{ scale: 1.15 }}
+            whileTap={{ scale: 0.9 }}
             href={resumeFile}
             download
             type="application/pdf"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200"
           >
-            {t('header.resume')}
-          </a> */}
-          <a
+            {t("header.resume")}
+          </motion.a> */}
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
             href="https://github.com/fgonzalezurriola"
             target="_blank"
             rel="noreferrer noopener"
-            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-115"
+            className="bg-white text-blue-600 py-2 px-4 rounded-full text-base md:text-lg font-semibold hover:bg-gray-200"
           >
             Github
-          </a>
+          </motion.a>
         </div>
       </motion.div>
     </motion.section>
