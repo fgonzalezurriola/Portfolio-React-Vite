@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FaLinkedin, FaTelegram, FaEnvelope } from "react-icons/fa";
@@ -27,36 +28,42 @@ const Contact: React.FC = () => {
         </h2>
         <div className="flex justify-center space-x-12 md:space-x-20">
           {/* Gmail */}
-          <button
+          <motion.button
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.8 }}
             onClick={handleEmailClick}
-            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500 
-          transition-all duration-300 scale-125 hover:scale-150 flex flex-col items-center"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500
+            flex flex-col items-center"
           >
             <FaEnvelope className="text-5xl" />
             <p className="text-center mt-2">{t("contact.email")}</p>
-          </button>
+          </motion.button>
           {/* LinkedIn */}
-          <a
+          <motion.a
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.8 }}
             href="https://www.linkedin.com/in/fgonzalezurriola/"
             target="_blank"
             rel="noreferrer noopener"
             className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500
-          transition-all duration-300 scale-125 hover:scale-150 flex flex-col items-center"
+          flex flex-col items-center"
           >
             <FaLinkedin className="text-5xl ml-2" />
             <p className="text-center mt-2 ml-2">LinkedIn</p>
-          </a>
+          </motion.a>
           {/* Telegram */}
-          <a
+          <motion.a
+            whileHover={{ scale: 1.5 }}
+            whileTap={{ scale: 0.8 }}
             href="https://t.me/fgonzalezurriola"
             target="_blank"
             rel="noreferrer noopener"
             className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500
-          transition-all duration-300 scale-125 hover:scale-150 flex flex-col items-center"
+          flex flex-col items-center"
           >
             <FaTelegram className="text-5xl mr-0" />
             <p className="text-center mt-2">Telegram</p>
-          </a>
+          </motion.a>
         </div>
       </div>
     </section>
