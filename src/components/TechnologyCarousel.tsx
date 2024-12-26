@@ -15,6 +15,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiDocker,
+  SiJinja,
 } from "react-icons/si";
 
 const technologies = [
@@ -31,6 +32,7 @@ const technologies = [
   { name: "CSS", icon: <FaCss3Alt /> },
   { name: "Tailwind", icon: <SiTailwindcss /> },
   { name: "Docker", icon: <SiDocker /> },
+  { name: "Jinja2", icon: <SiJinja /> },
 ];
 
 const TechnologyCarousel: React.FC = () => {
