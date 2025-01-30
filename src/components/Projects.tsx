@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { TbSandbox } from "react-icons/tb";
 import { GrPlan } from "react-icons/gr";
+import TechnologyCarousel from "./TechnologyCarousel";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -50,6 +51,7 @@ const Projects: React.FC = () => {
 
   return (
     <section className="py-12 transition-color">
+      <TechnologyCarousel />
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12">
           {t("projects.title")}

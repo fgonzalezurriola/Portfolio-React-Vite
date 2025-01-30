@@ -47,8 +47,8 @@ const TechnologyCarousel: React.FC = () => {
       <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto py-6 transition-colors">
         {/* Fade out and fade in */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-gray-100 dark:from-gray-800 to-transparent z-10" />
-          <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-gray-100 dark:from-gray-800 to-transparent z-10" />
+          <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-transparent dark:from-gray-900 to-transparent z-10" />
+          <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-transparent dark:from-gray-900 to-transparent z-10" />
         </div>
 
         {/* Rows with icons and names */}
