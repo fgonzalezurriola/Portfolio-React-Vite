@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
-import TechnologyCarousel from "./TechnologyCarousel";
+import Experience from "./Experience";
 
 const About: React.FC = () => {
   const { t } = useTranslation();
@@ -24,6 +24,7 @@ const About: React.FC = () => {
           {t("about.description1")}
         </p>
       </div>
+      <Experience />
     </motion.section>
   );
 };
