@@ -42,13 +42,19 @@
     "code": "Code",
     "deployed": "Website"
   },
-  "Experience": {
+  "experiences": {
     "title": "Experience",
     "experience1": {
-      "title": "Title",
-      "company": "Company",
-      "date": "August 2022 - December 2022",
-      "description": "Description"
+      "title": "EOL Engineering Intern",
+      "company": "VTI Uchile",
+      "date": "January 2025",
+      "description": "[Full Time, Hybrid]. In charge of exploring, researching and creating documentation for the latest version of Tutor software"
+    },
+    "experience2": {
+      "title": "Introduction to Programming Teaching Assistant",
+      "company": "University of Chile",
+      "date": "August 2024 - December 2024",
+      "description": "Responsible for reviewing weekly exercises and formal evaluations of 50 students."
     }
   },
   "contact": {

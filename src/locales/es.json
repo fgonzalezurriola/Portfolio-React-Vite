@@ -42,13 +42,19 @@
     "code": "Código",
     "deployed": "Sitio web"
   },
-  "Experience": {
+  "experiences": {
     "title": "Experiencia",
     "experience1": {
-      "title": "Practicante Full Stack",
-      "company": "Vicerrectoría de Tecnologías de la Información",
-      "date": "Enero 2024",
-      "description": "Práctica profesional 1"
+      "title": "Practicante en Ingeniería EOL",
+      "company": "VTI Uchile",
+      "date": "Enero 2025",
+      "description": "[Full Time, Híbrido]. Encargado de crear explorar investigar y crear documentación sobre la última versión del software Tutor"
+    },
+    "experience2": {
+      "title": "Ayudante Introducción a la Programación",
+      "company": "Universidad de Chile",
+      "date": "Agosto 2024 - Diciembre 2024",
+      "description": "Encargado de revisar ejercicios semanales y evaluaciones formales de 50 alumnos."
     }
   },
   "contact": {
