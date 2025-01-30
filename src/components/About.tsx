@@ -24,7 +24,6 @@ const About: React.FC = () => {
           {t("about.description1")}
         </p>
       </div>
-      <TechnologyCarousel />
     </motion.section>
   );
 };

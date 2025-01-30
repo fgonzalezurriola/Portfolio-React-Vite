@@ -41,7 +41,7 @@ const TechnologyCarousel: React.FC = () => {
 
   return (
     <>
-      <h2 className="text-3xl md:text-5xl font-bold text-center py-6">
+      <h2 className="text-3xl md:text-5xl font-bold text-center py-6 mb-6">
         {t("about.technologies")}
       </h2>
       <div className="relative h-30 overflow-hidden w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto py-6 transition-colors">
@@ -59,7 +59,7 @@ const TechnologyCarousel: React.FC = () => {
               className="flex-shrink-0 w-20 flex flex-col items-center justify-center text-blue-600 dark:text-blue-400 text-6xl"
             >
               {tech.icon}
-              <p className="text-sm mt-2 text-center">{tech.name}</p>
+              <p className="text-sm mt-2 mb-6 text-center">{tech.name}</p>
             </div>
           ))}
         </div>
