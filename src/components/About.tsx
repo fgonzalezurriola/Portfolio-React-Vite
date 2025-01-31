@@ -13,7 +13,7 @@ const About: React.FC = () => {
       id="about"
       className="py-6 bg-gray-100 dark:bg-gray-800 transition-colors"
     >
-      <div className="max-w-2xl mx-auto px-6 text-center">
+      <div className="max-w-xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-5xl font-semibold text-start mt-6 mb-2">
           {t("about.title")}
         </h2>
