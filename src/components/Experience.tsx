@@ -31,21 +31,27 @@ const Experience: React.FC = () => {
 
       {experiences.map((experience, index) => (
         <motion.div
-          whileHover={{ scale: 1.1 }}
-          className="w-full items-center bg-slate-900 p-6 
+          className="w-full items-center bg-slate-900 p-6
           rounded-lg mb-20"
+          whileHover={{
+            scale: 1.07,
+            transition: { duration: 0.2, type: "tween" },
+          }}
+          initial={{ backgroundColor: "#111827" }}
+          animate={{ backgroundColor: "#13384f" }}
+          transition={{
+            backgroundColor: {
+              ease: "easeInOut",
+              duration: 5.5,
+              repeat: Infinity,
+              repeatType: "mirror",
+            },
+          }}
         >
           <article key={index} className="">
             <div className="p-6 flex items-center">
               <experience.icon size={48} className="text-blue-500 mr-4" />
-              <motion.h2
-                className="text-xl font-semibold mb-2"
-                initial={{ color: "# FFFFFF" }}
-                animate={{ color: "# 2196F3" }}
-                transition={{ duration: 5, repeat: Infinity }}
-              >
-                {t(experience.title)}
-              </motion.h2>
+              <motion.h2>{t(experience.title)}</motion.h2>
             </div>
             <h3 className="text-gray-600 dark:text-gray-300 text-opacity-50 mb-6">
               {t(experience.company)}

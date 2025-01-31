@@ -11,7 +11,7 @@ const About: React.FC = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 1 }}
       id="about"
-      className="py-6 bg-gray-100 dark:bg-gray-800 transition-colors"
+      className="py-12 bg-gray-100 dark:bg-gray-800 transition-colors"
     >
       <div className="max-w-xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-5xl font-semibold text-start mt-6 mb-2">
