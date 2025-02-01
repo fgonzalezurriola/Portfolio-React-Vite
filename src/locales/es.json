@@ -45,16 +45,20 @@
   "experiences": {
     "title": "Experiencia",
     "experience1": {
-      "title": "Practicante en Ingeniería EOL",
-      "company": "VTI Uchile",
+      "title": "Practicante en EOL, Equipo de Ingeniería",
+      "company": "VTI - Universidad de Chile",
       "date": "Enero 2025",
-      "description": "[Full Time, Híbrido]. Encargado de crear explorar investigar y crear documentación sobre la última versión del software Tutor"
+      "description1": "Encargado de Investigar y explorar la distribución de Open edX dockerizada, Tutor, en su última versión",
+      "description2": "Inspeccionar de qué forma Tutor cambia los estilos en las páginas Legacy hechas en Django+Mako y en los MicroFrontEnd hechos en React",
+      "description3": "Documentar cómo hacer cambios estéticos en las imágenes docker de OpenedX utilizando plugins que ofrece Tutor"
     },
     "experience2": {
       "title": "Ayudante Introducción a la Programación",
       "company": "Universidad de Chile",
       "date": "Agosto 2024 - Diciembre 2024",
-      "description": "Encargado de revisar ejercicios semanales y evaluaciones formales de 50 alumnos."
+      "description1": "Encargado de la corrección de ejercicios de laboratorio y controles, brindando feedback a 50 estudiantes.",
+      "description2": "Implementación de scripts de Python para la detección de copias en ejercicios, ahorrando un 10% de mi tiempo dedicado a la ayudantía.",
+      "description3": "Asistente en la administración de las 3 pruebas y examen impuestas por la Escuela de la facultad. Supervisando la realización de las evaluaciones a 50 estudiantes."
     }
   },
   "contact": {
