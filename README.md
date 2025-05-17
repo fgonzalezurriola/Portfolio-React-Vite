@@ -33,8 +33,6 @@ Este portafolio tiene como objetivo destacar mis habilidades técnicas y proyect
 
 ## 🌐 Despliegue
 
-Este proyecto está diseñado para ser fácilmente desplegable en plataformas como **Vercel** o **Netlify**. Solo debes conectar un repositorio y el despliegue automático se encargará de la configuración.
-
 Actualmente se encuentra en el servidor Apache del Departamento de Ciencias de la Computación en [https://users.dcc.uchile.cl/~fragonza/](https://users.dcc.uchile.cl/~fragonza/)
 
 ## 🖥️ Instalación y Uso
@@ -130,8 +128,6 @@ This portfolio aims to highlight my technical skills and projects while providin
 - **Technology Carousel**: Explore the technologies I use with an animated carousel featuring icons that represent my skills.
 
 ## 🌐 Deployment
-
-This project is designed to be easily deployed on platforms like **Vercel** or **Netlify**. Just connect a repository, and automatic deployment will handle the setup.
 
 It is currently hosted on the server of the Computer Science Department at [https://users.dcc.uchile.cl/~fragonza/](https://users.dcc.uchile.cl/~fragonza/)
 
