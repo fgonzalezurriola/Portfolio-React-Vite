@@ -56,7 +56,7 @@ const TechnologyCarousel: React.FC = () => {
           {doubledTechnologies.map((tech, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-20 flex flex-col items-center justify-center text-blue-600 dark:text-blue-400 text-6xl"
+              className="flex-shrink-0 w-20 flex flex-col items-center justify-center text-[#22D37F] dark:text-[#B9FF66] text-6xl"
             >
               {tech.icon}
               <p className="text-sm mt-2 text-center">{tech.name}</p>

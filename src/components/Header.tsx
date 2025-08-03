@@ -38,7 +38,7 @@ const Header: React.FC = () => {
             >
               <a
                 href={item.href}
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-transform hover:scale-115"
+                className="text-gray-700 dark:text-gray-300 hover:text-[#22D37F] dark:hover:text-[#B9FF66] transition-transform hover:scale-115"
                 onClick={(e) => handleClick(e, item.href)}
               >
                 {t(item.label)}

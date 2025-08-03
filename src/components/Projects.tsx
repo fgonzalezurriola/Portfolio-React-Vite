@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
               className="flex flex-col h-full transition-transform duration-200 rounded-lg shadow-md bg-gray-50 dark:bg-gray-700 hover:scale-105"
             >
               <div className="flex-grow p-6">
-                <project.icon size={48} className="mb-4 text-blue-500" />
+                <project.icon size={48} className="mb-4 text-[#22D37F] dark:text-[#B9FF66]" />
                 <h3 className="mb-2 text-xl font-semibold">
                   {t(project.title)}
                 </h3>
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 text-sm text-white bg-blue-500 rounded-lg hover:bg-blue-700"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white bg-[#22D37F] dark:bg-[#B9FF66] dark:text-gray-900 rounded-lg hover:bg-[#1bb06a] dark:hover:bg-[#a0e95a] transition-colors"
                   >
                     {t("projects.code")}
                     <FaGithub className="ml-2" size={16} />
