@@ -28,16 +28,16 @@
       "description": "A web application that displays the study plans of the programs offered at the University of Chile, built with React, Tailwind CSS and TypeScript."
     },
     "project3": {
-      "title": "Chilean Birds",
-      "description": "A simple project where you cand find cards of the chilean birds. Built using React, Tailwind, Axios and Express that uses the API https://aves.ninjas.cl/api/birds with information of the birds from chile"
+      "title": "DCCPRINT",
+      "description": "TUI application made in Go with BubbleTea to print more easily in the Department of Computer Science."
     },
     "project4": {
       "title": "Portfolio",
       "description": "The portfolio you're currently viewing, featuring dark mode and multi-language support, built with React, Tailwind CSS and TypeScript."
     },
     "project5": {
-      "title": "Rust Playground",
-      "description": "A web application that allows users to write, compile, and run Rust code in the browser, featuring basic examples. Built with React, Tailwind CSS, TypeScript and the Rust Playground API."
+      "title": "Chilean Birds",
+      "description": "A simple project where you cand find cards of the chilean birds. Built using React, Tailwind, Axios and Express that uses the API https://aves.ninjas.cl/api/birds with information of the birds from chile."
     },
     "code": "Code",
     "deployed": "Website"

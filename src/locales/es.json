@@ -28,16 +28,16 @@
       "description": "Una aplicación web que muestra la malla curricular de las carreras impartidas en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile, construida con React, Tailwind CSS y TypeScript."
     },
     "project3": {
-      "title": "Chilean Birds",
-      "description": "Un proyecto simple donde puedes encontrar fotos de las aves chilenas. Construido utilizando React, Tailwind, Axios y Express que utiliza la API https://aves.ninjas.cl/api/birds con información de las aves de Chile."
+      "title": "DCCPRINT",
+      "description": "Aplicación TUI hecha en Go con BubbleTea para imprimir más fácil en el Departamento de Ciencias de la Computación."
     },
     "project4": {
       "title": "Portafolio",
       "description": "El portafolio que estás viendo en este momento. Tiene modo oscuro y soporte para dos idiomas, construido utilizando React, Tailwind CSS y TypeScript."
     },
     "project5": {
-      "title": "Zona de Pruebas de Rust",
-      "description": "Una aplicación web que permite a los usuarios escribir, compilar y ejecutar código Rust en el navegador, contiene ejemplos básicos. Construida con React, TailwindCSS, TypeScript y la API de Rust Playground."
+      "title": "Chilean Birds",
+      "description": "Un proyecto simple donde puedes encontrar fotos de las aves chilenas. Construido utilizando React, Tailwind, Axios y Express que utiliza la API https://aves.ninjas.cl/api/birds con información de las aves de Chile."
     },
     "code": "Código",
     "deployed": "Sitio web"
