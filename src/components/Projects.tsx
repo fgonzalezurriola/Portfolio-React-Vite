@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
-import { BookMarked, BookUser, Bird } from "lucide-react";
+import { BookMarked } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { MdOutlineTerminal } from "react-icons/md";
@@ -61,7 +61,10 @@ const Projects: React.FC = () => {
               className="flex flex-col h-full transition-transform duration-200 rounded-lg shadow-md bg-gray-50 dark:bg-gray-700 hover:scale-105"
             >
               <div className="flex-grow p-6">
-                <project.icon size={48} className="mb-4 text-[#22D37F] dark:text-[#B9FF66]" />
+                <project.icon
+                  size={48}
+                  className="mb-4 text-[#22D37F] dark:text-[#B9FF66]"
+                />
                 <h3 className="mb-2 text-xl font-semibold">
                   {t(project.title)}
                 </h3>
