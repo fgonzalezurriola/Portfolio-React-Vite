@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
                     href={project.deploy}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 text-sm text-white bg-yellow-400 rounded-lg hover:bg-yellow-600"
+                    className="inline-flex items-center px-4 py-2 text-sm text-white transition-colors bg-yellow-400 rounded-lg dark:text-gray-900 hover:bg-yellow-600"
                   >
                     {t("projects.deployed")}
 
